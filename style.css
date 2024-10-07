@@ -1,0 +1,71 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    min-height: 70vh; /* Ensure sections are at least the full height of the viewport */
+    padding: 50px 0;   /* Add padding to give some space inside the sections */
+    border-bottom: 1px solid #ddd; /* Optional border for visibility */
+}
+
+h3 {
+    text-align: center;
+    color: #dc3545; /* Bootstrap's danger color */
+    margin: 20px 0;
+}
+
+.marquee {
+    margin: 10px 0;
+}
+
+.nav {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.netflix, .amazon ,.hotstar, .payment{ 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h4, h5 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
